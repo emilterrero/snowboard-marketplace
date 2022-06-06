@@ -6,7 +6,7 @@
     display: flex;
     flex-flow: column;
     background-color: white;
-    height: 100vh;
+    height: auto;
 }
 
 .navbar {
@@ -188,10 +188,19 @@
 }
 
 @media only screen 
-and (min-device-width: 375px)
-and (max-device-width: 812px) {
+and (min-device-width: 320px)
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3) 
+and (orientation: portrait) {
     .app {
-        background-color: white;
+    }
+
+    .navbar a {
+        font-size: 28px;
+    }
+
+    .navbar ul {
+        display: none;
     }
 
 }
