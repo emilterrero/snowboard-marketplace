@@ -1,38 +1,173 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app {
+    background-color: white;
+    height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar {
+    background-color: #e6e600;
+    z-index: 3;
+    width: 100vw;
+    position: fixed;
+    padding: 5px;
+    color: white;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar h1 {
+    font-size: 3.1vw;
+    margin: 0 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-ul ul {
+    margin: 0 25px;
+    list-style: none;
+    display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-ul li {
+    margin: 10px;
+    font-size: 2.1vw;
+    font-weight: bold;
+}
+
+.landing {
+    display: flex;
+    flex-flow: column;
+}
+
+.view-tab1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.background {
+    z-index: 1;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../public/snowboard-imgs/background.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: .5;
+
+}
+
+.landing button {
+    z-index: 2;
+    position: absolute;
+    padding: 5px;
+    color: black;
+    background-color: white;
+    border-style: none;
+    font-size: 16px;
+    font-weight: bold;
+    opacity: .6;
+    border-radius: 10px;
+    transition: .8s;
+}
+
+.landing button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    opacity: 1;
+}
+
+.view-tab2 {
+    background-color: white;
+    display: flex;
+    width: 100vw;
+}
+
+.cont {
+    width: 50vw;
+    height: 50vw;
+}
+
+.cont-p {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-p p {
+    margin: 10px 20px;
+    font-size: 2.1vw;
+    text-align: center;
+}
+
+.cont-p h2 {
+    font-size: 2.6vw;
+    padding: 5px;
+}
+
+.cont-img {
+    background-image: url('../public/snowboard-imgs/snowboarder.png');
+    background-size: cover;
+    background-position: right;
+    opacity: .6;
+}
+
+.cont-img2 {
+    background-image: url('../public/snowboard-imgs/snowboarder2.png');
+    background-size: cover;
+    background-position: right;
+    opacity: .6;
+}
+
+.view-tab3 {
+    width: 100vw;
+}
+
+.brands {
+    display: flex;
+}
+
+.brand {
+    width: 33.3vw;
+    height: 33.3vw;
+    transition: .6s;
+    opacity: .6;
+}
+
+.brand:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.capita {
+    background-image: url('../public/snowboard-imgs/capitaLogo.png');
+    background-size: cover;
+    background-position: right;
+}
+
+.bataleon{
+    background-image: url('../public/snowboard-imgs/bataleonLogo.png');
+    background-size: cover;
+    background-position: right;
+}
+
+.burton {
+    background-image: url('../public/snowboard-imgs/burtonLogo.png');
+    background-size: cover;
+    background-position: right;
+}
+
+@media only screen 
+and (min-device-width: 375px)
+and (max-device-width: 812px) {
+    .app {
+        background-color: white;
+    }
+
 }
