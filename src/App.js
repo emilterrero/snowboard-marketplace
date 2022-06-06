@@ -3,13 +3,15 @@ import Navbar from './components/Navbar.js';
 import Landing from './components/LandingPage.js';
 import Shop from './components/Shop.js';
 import { Route, Routes } from 'react-router-dom';
+import { useState } from 'react';
 
 function App() {
+    let [menu, setMenu] = useState(false);
 
 
     return (
         <div className='app'>
-        <Navbar />
+        <Navbar menu={ menu } setMenu={ setMenu } />
 
         <div className='routes-container'>
         <Routes>
