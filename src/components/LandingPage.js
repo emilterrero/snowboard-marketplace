@@ -40,11 +40,11 @@ function LandingPage() {
         <div className='view-tab3'>
 
         <div className='brands'>
-        <div className='brand capita'>
+        <div className='brand brand-capita'>
         </div>
-        <div className='brand bataleon'>
+        <div className='brand brand-bataleon'>
         </div>
-        <div className='brand burton'>
+        <div className='brand brand-burton'>
         </div>
         </div>
 
