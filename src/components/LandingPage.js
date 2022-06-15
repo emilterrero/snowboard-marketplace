@@ -39,6 +39,8 @@ function LandingPage() {
 
         <div className='view-tab3'>
 
+        <h1>Brands</h1>
+
         <div className='brands'>
         <div className='brand brand-capita'>
         </div>

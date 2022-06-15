@@ -148,6 +148,9 @@
 }
 
 .view-tab3 {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
     width: 100vw;
 }
 
@@ -186,13 +189,16 @@
 }
 
 .shop-page {
+    display: flex;
     background-color: white;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
 }
 
 .sidebar {
     width: 20vw;
+    min-height: 100vh;
 }
 
 .brand-btns {
@@ -213,8 +219,27 @@
     cursor: pointer;
 }
 
-.snowboard-model img {
-    height: 40vh;
+.shop-body {
+    width: 80vw;
+    min-height: 100vh;
+    height: auto;
+    background-color: red;
+    display: grid;
+    grid-template-areas: 
+    "a b c";
+}
+
+.snowboard-card {
+    display: flex;
+    flex-flow: column;
+    width: 26.5vw;
+    height: 40vw;
+}
+
+.snowboard-img {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 @media only screen 

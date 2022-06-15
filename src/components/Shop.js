@@ -25,6 +25,20 @@ function Shop({ snowboards }) {
 
         </div>
 
+        <div className='shop-body'>
+        {snowboards.map(snowboard => {
+            return (
+                <div className='snowboard-card'>
+                <div className='snowboard-img' style={{ backgroundImage: `url(${snowboard.image})` }}>
+                </div>
+                <h2>{snowboard.model}</h2>
+
+                </div>
+            )
+        })}
+
+        </div>
+
 
         </div>
     )
