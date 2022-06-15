@@ -31,7 +31,7 @@ function Shop({ snowboards }) {
                 <div className='snowboard-card'>
                 <div className='snowboard-img' style={{ backgroundImage: `url(${snowboard.image})` }}>
                 </div>
-                <h2>{snowboard.model}</h2>
+                <h3>{snowboard.model}</h3>
 
                 </div>
             )

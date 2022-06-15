@@ -223,7 +223,7 @@
     width: 80vw;
     min-height: 100vh;
     height: auto;
-    background-color: red;
+    background-color: white;
     display: grid;
     grid-template-areas: 
     "a b c";
@@ -232,7 +232,7 @@
 .snowboard-card {
     display: flex;
     flex-flow: column;
-    width: 26.5vw;
+    width: 25vw;
     height: 40vw;
 }
 
