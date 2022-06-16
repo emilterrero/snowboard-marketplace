@@ -1,4 +1,5 @@
 import '../App.css';
+import { Link } from 'react-router-dom';
 
 function LandingPage() {
     return (
@@ -42,12 +43,9 @@ function LandingPage() {
         <h1>Brands</h1>
 
         <div className='brands'>
-        <div className='brand brand-capita'>
-        </div>
-        <div className='brand brand-bataleon'>
-        </div>
-        <div className='brand brand-burton'>
-        </div>
+        <Link to='/shop'><div className='brand brand-capita'></div></Link>
+        <Link to='/shop'><div className='brand brand-bataleon'></div></Link>
+        <Link to='/shop'><div className='brand brand-burton'></div></Link>
         </div>
 
         </div>
