@@ -200,7 +200,7 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    width: 20vw;
+    width: 25vh;
     min-height: 100vh;
     margin: 10px;
 }
