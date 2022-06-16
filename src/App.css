@@ -197,27 +197,52 @@
 }
 
 .sidebar {
-    width: 20vw;
-    min-height: 100vh;
-}
-
-.brand-btns {
     display: flex;
     flex-flow: column;
     align-items: center;
+    width: 20vw;
+    min-height: 100vh;
+    margin: 10px;
 }
 
-.brand-btns button {
+.sidebar h3 {
+    margin: 10px 0 0 0;
+}
+
+.sidebar-btns {
+    display: flex;
+    flex-flow: column;
+}
+
+.sb-btn {
     border-style: none;
     background-color: white;
-    margin: 3px;
-    width: 70%;
+    padding: 3px 20px;
 }
 
-.brand-btns button:hover {
+.sb-btn:hover {
     background-color: gainsboro;
     cursor: pointer;
 }
+
+.size-btns {
+    display: grid;
+    grid-template-areas: 
+    "a b c";
+}
+
+.size-btn {
+   border-style: none; 
+   margin: 3px;
+   border: solid gainsboro 1px;
+   background-color: white;
+}
+
+.size-btn:hover {
+    background-color: gainsboro;
+    cursor: pointer;
+}
+
 
 .shop-body {
     width: 80vw;
@@ -241,6 +266,10 @@
     height: 100%;
     background-size: cover;
     background-position: center;
+}
+
+.snowboard-img:hover {
+    cursor: pointer; 
 }
 
 .card-info {

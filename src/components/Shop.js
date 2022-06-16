@@ -15,12 +15,31 @@ function Shop({ snowboards }) {
 
 
         <div className='sidebar'>
-        <h2>Brands</h2>
+        <h3>Brands</h3>
+        <div className='sidebar-btns'>
+        <button className='brand-btn sb-btn'>Capita</button>
+        <button className='brand-btn sb-btn'>Bataleon</button>
+        <button className='brand-btn sb-btn'>Burton</button>
+        </div>
 
-        <div className='brand-btns'>
-        <button className='brand-btn sb-capita'>Capita</button>
-        <button className='brand-btn sb-bataleon'>Bataleon</button>
-        <button className='brand-btn sb-burton'>Burton</button>
+        <h3>Terrain</h3>
+        <div className='sidebar-btns'>
+        <button className='terrain-btn sb-btn'>All Mountain</button>
+        <button className='terrain-btn sb-btn'>Park</button>
+        <button className='terrain-btn sb-btn'>Powder</button>
+        <button className='terrain-btn sb-btn'>Resort</button>
+        </div>
+
+        <h3>Size</h3>
+        <div className='size-btns'>
+        <button className='size-btn'>150</button>
+        <button className='size-btn'>152</button>
+        <button className='size-btn'>154</button>
+        <button className='size-btn'>156</button>
+        <button className='size-btn'>158</button>
+        <button className='size-btn'>160</button>
+        <button className='size-btn'>162</button>
+        <button className='size-btn'>164</button>
         </div>
 
         </div>
