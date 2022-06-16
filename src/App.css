@@ -232,14 +232,25 @@
 .snowboard-card {
     display: flex;
     flex-flow: column;
-    width: 25vw;
-    height: 40vw;
+    margin: 10px;
+    width: 24vw;
+    height: 36vw;
 }
 
 .snowboard-img {
     height: 100%;
     background-size: cover;
     background-position: center;
+}
+
+.card-info {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.snowboard-card h3, .snowboard-card p {
+    font-size: 14px;
 }
 
 @media only screen 

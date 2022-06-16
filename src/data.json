@@ -5,6 +5,7 @@
         "year": 2021,
         "bestFor": "park",
         "sizes": [150, 152, 158],
+        "price": 500,
         "image": "../snowboard-imgs/capita_indoor_survival.png"
     },
     {
@@ -13,6 +14,7 @@
         "year": 2021,
         "bestFor": "powder",
         "sizes": [153],
+        "price": 650,
         "image": "../snowboard-imgs/capita_powder_twin.png"
     },
     {
@@ -21,6 +23,7 @@
         "year": 2021,
         "bestFor": "resort",
         "sizes": [152, 156, 158],
+        "price": 700,
         "image": "../snowboard-imgs/capita_asymulator.png"
     },
     {
@@ -29,6 +32,7 @@
         "year": 2021,
         "bestFor": "resort",
         "sizes": [147, 150, 155, 158],
+        "price": 550,
         "image": "../snowboard-imgs/capita_mercury.png"
     },
     {
@@ -37,6 +41,7 @@
         "year": 2021,
         "bestFor": "powder",
         "sizes": [152, 158, 160],
+        "price": 600,
         "image": "../snowboard-imgs/capita_kazu.png"
     }, 
     {
@@ -45,6 +50,7 @@
         "year": 2021,
         "bestFor": "powder",
         "sizes": [154, 158, 162],
+        "price": 800,
         "image": "../snowboard-imgs/bataleon_surfer.png"
     }, 
     {
@@ -53,6 +59,7 @@
         "year": 2021,
         "bestFor": "all mountain",
         "sizes": [153, 156, 160],
+        "price": 750,
         "image": "../snowboard-imgs/bataleon_stallion.png"
     }, 
     {
@@ -61,6 +68,7 @@
         "year": 2021,
         "bestFor": "all mountain",
         "sizes": [150, 152, 154, 158],
+        "price": 670,
         "image": "../snowboard-imgs/bataleon_goliath.png"
     }, 
     {
@@ -69,6 +77,7 @@
         "year": 2021,
         "bestFor": "powder",
         "sizes": [150, 154, 158],
+        "price": 500,
         "image": "../snowboard-imgs/bataleon_disaster.png"
     }, 
     {
@@ -77,6 +86,7 @@
         "year": 2021,
         "bestFor": "park",
         "sizes": [152, 156, 159],
+        "price": 550,
         "image": "../snowboard-imgs/bataleon_evil_twin.png"
     }, 
     {
@@ -85,6 +95,7 @@
         "year": 2022,
         "bestFor": "all mountain",
         "sizes": [],
+        "price": 600,
         "image": "../snowboard-imgs/burton_process.png"
     },
     {
@@ -93,6 +104,7 @@
         "year": 2021,
         "bestFor": "powder",
         "sizes": [149, 156],
+        "price": 700,
         "image": "../snowboard-imgs/burton_hometown_hero.png"
     },
     {
@@ -101,6 +113,7 @@
         "year": 2021,
         "bestFor": "all mountain",
         "sizes": [156, 158, 159],
+        "price": 750,
         "image": "../snowboard-imgs/burton_custom.png"
     },
     {
@@ -109,6 +122,7 @@
         "year": 2021,
         "bestFor": "park",
         "sizes": [149, 154, 156, 159, 160],
+        "price": 550,
         "image": "../snowboard-imgs/burton_name_dropper.png"
     },
     {
@@ -117,6 +131,7 @@
         "year": 2021,
         "bestFor": "all mountain",
         "sizes": [145, 149, 152, 154],
+        "price": 800,
         "image": "../snowboard-imgs/burton_instigator.png"
     }
 ]
