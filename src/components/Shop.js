@@ -5,9 +5,7 @@ function Shop({ snowboards }) {
     let [filter, setFilter] = useState([]);
 
     useEffect(() => {
-        snowboards.map(snowboard => {
-            console.log(snowboard.model)
-        })
+        window.scrollTo(0, 0)
     }, [])
 
     return (
