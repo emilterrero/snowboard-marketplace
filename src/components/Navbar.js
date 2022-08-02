@@ -25,8 +25,6 @@ function Navbar({ menu, setMenu }) {
         <div className='nav-ul'>
         <ul>
         <li><Link to='/shop'>Shop</Link></li>
-        <li><Link to='/about'>About</Link></li>
-        <li><Link to='/technology'>Technology</Link></li>
         </ul>
         </div>
 
