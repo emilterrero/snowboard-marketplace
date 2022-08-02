@@ -1,7 +1,10 @@
 import '../App.css';
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
-function LandingPage() {
+function LandingPage({brand, setBrand}) {
+    
+
     return (
         <div className='landing'>
 

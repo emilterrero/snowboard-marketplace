@@ -4,9 +4,8 @@ import Filter from './Filter.js';
 import { useState, useEffect } from 'react';
 
 
-function Shop({ snowboards }) {
+function Shop({ snowboards, brand, setBrand }) {
     let [filter, setFilter] = useState([]);
-    let [brand, setBrand] = useState('')
     let [terrain, setTerrain] = useState('')
     let [size, setSize] = useState('')
 
@@ -75,6 +74,7 @@ function Shop({ snowboards }) {
             filter={filter}
             snowboards={snowboards}
             brand={brand}
+            setBrand={setBrand}
             terrain={terrain}
             size={size}
             />
