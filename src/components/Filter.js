@@ -1,5 +1,4 @@
 import '../App.css';
-import snowboards from '../data.json';
 
 function Filter({snowboards, filter, brand, terrain, size}) {
     let filtered = snowboards.map(snowboard => {
